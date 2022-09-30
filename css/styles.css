@@ -61,6 +61,57 @@ body {
 
 /* end header */
 
+/* start main  */
+.hero-section {
+   background-color: var(--bgc-primary)
+}
+
+.hero-title {
+   color: var(--color-white);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+
+.hero-button {
+   color: var(--color-white);
+   background-color: var(--color-brand);
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.06em;
+   cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+   background-color: var(--bgc-inverted);
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   overflow: hidden;
+   border: 0;
+   clip: rect(0 0 0 0);
+}
+
+.benefits-title {
+   font-weight: 700;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+
+.benefits-descr {
+   color: var(--text-color-secondary);
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+}
 
 /* start footer */
 .footer {
@@ -87,8 +138,6 @@ body {
    text-decoration: none;
 }
 
-.link-address:hover,
-.link-address:focus,
 .link-contact-bottom:hover,
 .link-contact-bottom:focus {
    color: var(--color-brand);
