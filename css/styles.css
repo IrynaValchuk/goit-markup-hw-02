@@ -1,10 +1,10 @@
 :root {
+   --text-color-primary: #212121;
+   --text-color-secondary: #757575;
    --color-brand: #2196F3;
    --color-black: #000;
    --color-white: #FFF;
    --color-white-secondary: rgba(255, 255, 255, 0.6);
-   --text-color-primary: #212121;
-   --text-color-secondary: #757575;
    --bgc-primary: #2F303A;
    --bgc-secondary: #F5F4FA;
    --bgc-inverted: #188CE8;
@@ -15,5 +15,49 @@ body {
    background-color: var(--color-white);
    font-family: 'Roboto', sans-serif;
    font-size: 14px;
+   font-weight: 400;
    line-height: 1.14;
+   letter-spacing: 0.02em;
+}
+
+.list {
+   list-style: none;
+}
+
+/* header */
+.logo {
+   color: var(--color-brand);
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   text-decoration: none;
+}
+
+.logo>span {
+   color: var(--color-black);
+}
+
+.link {
+   color: var(--text-color-primary);
+   font-weight: 500;
+   text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.link.current {
+   color: var(--color-brand);
+}
+
+.link-contact {
+   color: var(--text-color-secondary);
+   font-weight: 500;
+   text-decoration: none;
+}
+
+.link-contact:hover,
+.link-contact:focus {
+   color: var(--color-brand);
 }
