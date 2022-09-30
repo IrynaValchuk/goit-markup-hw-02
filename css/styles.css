@@ -28,8 +28,8 @@ body {
 .logo {
    color: var(--color-brand);
    font-family: 'Raleway', sans-serif;
-   font-weight: 700;
    font-size: 26px;
+   font-weight: 700;
    line-height: 1.19;
    letter-spacing: 0.03em;
    text-decoration: none;
@@ -62,14 +62,15 @@ body {
 /* end header */
 
 /* start main  */
+/* початок "Студія" */
 .hero-section {
    background-color: var(--bgc-primary)
 }
 
 .hero-title {
    color: var(--color-white);
-   font-weight: 900;
    font-size: 44px;
+   font-weight: 900;
    line-height: 1.36;
    letter-spacing: 0.06em;
    text-transform: uppercase;
@@ -78,8 +79,8 @@ body {
 .hero-button {
    color: var(--color-white);
    background-color: var(--color-brand);
-   font-weight: 700;
    font-size: 16px;
+   font-weight: 700;
    line-height: 1.88;
    letter-spacing: 0.06em;
    cursor: pointer;
@@ -112,6 +113,37 @@ body {
    line-height: 1.71;
    letter-spacing: 0.03em;
 }
+
+.title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+}
+
+.team-section {
+   background-color: var(--bgc-secondary)
+}
+
+.teamplayer-card {
+   background-color: var(--color-white);
+}
+
+.teamplayer-title {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+}
+
+.teamplayer-descr {
+   color: var(--text-color-secondary);
+   font-size: 16px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+}
+
+/* кінець "Студія" */
 
 /* start footer */
 .footer {
