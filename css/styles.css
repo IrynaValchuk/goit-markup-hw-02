@@ -15,7 +15,6 @@ body {
    background-color: var(--color-white);
    font-family: 'Roboto', sans-serif;
    font-size: 14px;
-   font-weight: 400;
    line-height: 1.14;
    letter-spacing: 0.03em;
 }
@@ -107,7 +106,6 @@ body {
 }
 
 .benefits-title {
-   font-weight: 700;
    text-transform: uppercase;
 }
 
@@ -117,7 +115,6 @@ body {
 }
 
 .title {
-   font-weight: 700;
    font-size: 36px;
    line-height: 1.17;
 }
@@ -157,6 +154,7 @@ body {
 .filters-button:hover,
 .filters-button:focus,
 .filters-button.current {
+   color: var(--color-white);
    background-color: var(--color-brand);
 }
 
@@ -171,7 +169,6 @@ body {
 .project-title {
    color: var(--text-color-primary);
    font-size: 18px;
-   font-weight: 700;
    line-height: 2;
    letter-spacing: 0.06em;
 }
